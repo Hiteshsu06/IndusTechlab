@@ -1,0 +1,12 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 20px;
+    color: rgb(190 190 190);
+    border-top: 0.1px solid #e5e7eb;
+}
+.rightContent{
+    display: flex;
+    column-gap: 1.75rem;
+}

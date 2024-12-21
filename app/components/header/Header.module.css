@@ -1,0 +1,30 @@
+.socialLink{
+   color: rgb(190 190 190);
+   z-index: 100;
+}
+.transitionColors{
+    transition: all .3s linear;
+    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+    transition-timing-function: cubic-bezier(.4,0,.2,1);
+    transition-duration: .15s;
+}
+.imageHeight{
+    height: 60px;
+}
+.z100{
+    z-index: 100;
+}
+.customTransition{
+    font-size: 1.1rem;
+    font-weight: 600;
+    transition: all .6s linear;
+    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+    transition-timing-function: cubic-bezier(.4,0,.2,1);
+    transition-duration: .15s;
+}
+.labelTransition{
+    transition: all .3s linear;
+    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+    transition-timing-function: cubic-bezier(.4,0,.2,1);
+    transition-duration: .15s;
+}

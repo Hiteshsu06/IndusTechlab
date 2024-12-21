@@ -1,0 +1,15 @@
+.contactBackground {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; /* Ensures the background spans the full width */
+    height: 510px; /* Set the height */
+    box-shadow: inset 0 0 30px rgb(20, 20, 22); /* Adds the inner shadow */
+    background-size: cover; /* Scales the background image */
+    background-position: center; /* Centers the background image */
+    background-repeat: no-repeat; /* Prevents repeating the background */
+    background-image: 
+    linear-gradient(177deg, rgba(20, 20, 22, 0.5), rgb(19 19 22)),
+        url('/assets/images/contact-background.webp'); /* Background image */
+    pointer-events: none; /* Prevents interactions */
+}
