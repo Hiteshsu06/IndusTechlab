@@ -1,5 +1,7 @@
 "use client";
-
+import { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import Image from 'next/image';
@@ -7,9 +9,12 @@ import styles from './FooterLinks.module.css';
 
 const FooterLinks = () => {
   const pathname = usePathname();
+  useEffect(() => {
+    AOS.init();
+  }, []);
 
   return (
-    <>
+    <section>
         <div className='flex items-center justify-between gap-x-20 gap-y-4 pb-5 pt-[60px] base-theme lg:pt-20'>
             <Image src="/logo.webp" width={150} height={60} alt="logo"/>
             <div className='flex gap-[0.625rem] items-center'>
@@ -28,7 +33,7 @@ const FooterLinks = () => {
             </div>
         </div>
         <div className={`grid grid-cols-4 gap-4 py-[60px] base-theme ${styles.container}`}>
-            <div>
+            <div data-aos="fade-up" data-aos-delay="200" className='aos-init aos-animate'>
                 <div className={styles?.heading}>Quick Links</div>
                 <div>
                     <ul className={styles?.ul}>
@@ -60,7 +65,7 @@ const FooterLinks = () => {
                     </ul>
                 </div>
             </div>
-            <div>
+            <div data-aos="fade-up" data-aos-delay="400" className='aos-init aos-animate'>
                 <div className={styles?.heading}>Service Links</div>
                 <div>
                     <ul className={styles?.ul}>
@@ -92,7 +97,7 @@ const FooterLinks = () => {
                     </ul>
                 </div>
             </div>
-            <div>
+            <div data-aos="fade-up" data-aos-delay="600" className='aos-init aos-animate'>
                 <div className={styles?.heading}>Recent Blog</div>
                 <div className='flex flex-col gap-6'>
                     <div className='flex gap-4'>
@@ -121,7 +126,7 @@ const FooterLinks = () => {
                     </div>
                 </div>
             </div>
-            <div>
+            <div data-aos="fade-up" data-aos-delay="800" className='aos-init aos-animate'>
                 <div className={styles?.heading}>Contact Us</div>
                 <div className='flex flex-col gap-4'>
                     <div>
@@ -139,7 +144,7 @@ const FooterLinks = () => {
                 </div>
             </div>
         </div>
-    </>
+    </section>
   )
 }
 

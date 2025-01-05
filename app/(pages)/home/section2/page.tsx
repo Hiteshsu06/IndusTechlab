@@ -1,7 +1,17 @@
+"use client"
+
+import { useEffect } from 'react';
 import Image from "next/image";
 import PlusIcon from "../../../../public/assets/svgs/Plus.svg";
 
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 export default function Section2() {
+  useEffect(() => {
+    AOS.init();
+  }, [])
+
   return (
     <section className="section-padding-primary !pb-0">
       <div className="mx-4 flex flex-wrap justify-center gap-y-30px font-secondary">
@@ -33,7 +43,7 @@ export default function Section2() {
             </p>
             <a
               href=""
-              className="relative z-[2] overflow-hidden text-base leading-[1.1] font-bold tracking-wide uppercase [transition:all_0.3s_linear] inline-flex items-center justify-center gap-3 md:min-h-[3.75rem] min-h-[3.5rem] px-6 md:px-7 py-2 md:py-3 transition-colors ease-in-out ring-offset-primary-dark focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 after:absolute after:h-full after:w-0 after:bottom-0 after:right-0 after:bg-black/[.15] after:-z-1 after:[transition:all_.3s_ease-in-out] hover:after:w-full hover:after:left-0 rounded border group-hover/service:border-primary border-accent-700 text-accent-900 hover:border-primary hover:bg-transparent hover:text-primary border-accent-900 bg-accent-900 text-white group-hover/service:bg-transparent before:hidden after:hidden"
+              className="relative z-[2] overflow-hidden text-base leading-[1.1] font-bold tracking-wide uppercase [transition:all_0.3s_linear] inline-flex items-center justify-center gap-3 md:min-h-[3.75rem] min-h-[3.5rem] px-6 md:px-7 py-2 md:py-3 transition-colors ease-in-out ring-offset-primary-dark focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 after:absolute after:h-full after:w-0 after:bottom-0 after:right-0 after:bg-black/[.15] after:-z-1 after:[transition:all_.3s_ease-in-out] hover:after:w-full hover:after:left-0 rounded border group-hover/service:border-primary hover:border-primary hover:bg-transparent hover:text-primary border-accent-900 bg-accent-900 text-white group-hover/service:bg-transparent before:hidden after:hidden"
             >
               <span>Read More</span>
               <span className="relative top-[-2px] text-sm/[1] text-primary">
@@ -49,7 +59,7 @@ export default function Section2() {
           </article>
         </div>
         <div
-          data-aos-delay="200"
+          data-aos-delay="400"
           data-aos="fade-up"
           className="w-full px-4 md:w-1/2 md:px-[15px] lg:w-1/3 aos-init aos-animate"
         >
@@ -77,7 +87,7 @@ export default function Section2() {
             </p>
             <a
               href=""
-              className="relative z-[2] overflow-hidden text-base leading-[1.1] font-bold tracking-wide uppercase [transition:all_0.3s_linear] inline-flex items-center justify-center gap-3 md:min-h-[3.75rem] min-h-[3.5rem] px-6 md:px-7 py-2 md:py-3 transition-colors ease-in-out ring-offset-primary-dark focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 after:absolute after:h-full after:w-0 after:bottom-0 after:right-0 after:bg-black/[.15] after:-z-1 after:[transition:all_.3s_ease-in-out] hover:after:w-full hover:after:left-0 rounded border group-hover/service:border-primary border-accent-700 text-accent-900 hover:border-primary hover:bg-transparent hover:text-primary border-accent-900 bg-accent-900 text-white hover:text-primary group-hover/service:bg-transparent before:hidden after:hidden"
+              className="relative z-[2] overflow-hidden text-base leading-[1.1] font-bold tracking-wide uppercase [transition:all_0.3s_linear] inline-flex items-center justify-center gap-3 md:min-h-[3.75rem] min-h-[3.5rem] px-6 md:px-7 py-2 md:py-3 transition-colors ease-in-out ring-offset-primary-dark focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 after:absolute after:h-full after:w-0 after:bottom-0 after:right-0 after:bg-black/[.15] after:-z-1 after:[transition:all_.3s_ease-in-out] hover:after:w-full hover:after:left-0 rounded border group-hover/service:border-primary  hover:border-primary hover:bg-transparent border-accent-900 bg-accent-900 text-white hover:text-primary group-hover/service:bg-transparent before:hidden after:hidden"
             >
               <span>Read More</span>
               <span className="relative top-[-2px] text-sm/[1] text-primary">
@@ -93,7 +103,7 @@ export default function Section2() {
           </article>
         </div>
         <div
-          data-aos-delay="200"
+          data-aos-delay="600"
           data-aos="fade-up"
           className="w-full px-4 md:w-1/2 md:px-[15px] lg:w-1/3 aos-init aos-animate"
         >
@@ -121,7 +131,7 @@ export default function Section2() {
             </p>
             <a
               href=""
-              className="relative z-[2] overflow-hidden text-base leading-[1.1] font-bold tracking-wide uppercase [transition:all_0.3s_linear] inline-flex items-center justify-center gap-3 md:min-h-[3.75rem] min-h-[3.5rem] px-6 md:px-7 py-2 md:py-3 transition-colors ease-in-out ring-offset-primary-dark focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 after:absolute after:h-full after:w-0 after:bottom-0 after:right-0 after:bg-black/[.15] after:-z-1 after:[transition:all_.3s_ease-in-out] hover:after:w-full hover:after:left-0 rounded border group-hover/service:border-primary border-accent-700 text-accent-900 hover:border-primary hover:bg-transparent hover:text-primary border-accent-900 bg-accent-900 text-white hover:text-primary group-hover/service:bg-transparent before:hidden after:hidden"
+              className="relative z-[2] overflow-hidden text-base leading-[1.1] font-bold tracking-wide uppercase [transition:all_0.3s_linear] inline-flex items-center justify-center gap-3 md:min-h-[3.75rem] min-h-[3.5rem] px-6 md:px-7 py-2 md:py-3 transition-colors ease-in-out ring-offset-primary-dark focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 after:absolute after:h-full after:w-0 after:bottom-0 after:right-0 after:bg-black/[.15] after:-z-1 after:[transition:all_.3s_ease-in-out] hover:after:w-full hover:after:left-0 rounded border group-hover border-accent-900 bg-accent-900 text-white hover:text-primary group-hover/service:bg-transparent before:hidden after:hidden"
             >
               <span>Read More</span>
               <span className="relative top-[-2px] text-sm/[1] text-primary">
