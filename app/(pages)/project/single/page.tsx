@@ -4,7 +4,7 @@ import PrimaryBackgroundFrame from '../../../components/primaryBackgroundFrame/P
 
 export default function Testimonial() {
   return (
-    <div className='base-theme'>
+    <div className='bg-base'>
       <PrimaryBackgroundFrame pageName="Testimonial"/>
       <div className='px-[32px]'>
         

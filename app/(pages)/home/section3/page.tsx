@@ -25,7 +25,7 @@ export default function Section3() {
               <span className='mb-[.625rem] block font-secondary text-base font-bold uppercase leading-[1.5] tracking-widest text-primary md:text-md'>About us</span>
               <h2 className='font-secondary text-xl font-bold leading-[1.25] text-white md:text-[3rem]'>Empowering Your Digital Tomorrow</h2>
               <p className='mt-5 whitespace-pre-line'>
-                  It is a long established fact that a reader will be distracted by the readablejk content of a page when looking at its layout. Lorem Ipsum is simply dum text of the printing and typesetting industry loren ipsum
+                we believe in transforming the way businesses harness technology. Our mission is to provide innovative IT solutions that drive growth, enhance efficiency, and secure your digital future. Through cutting-edge technology, expert insights, and tailored strategies, we help businesses navigate the ever-evolving digital landscape with confidence. 
               </p>
             </div>
             <div className='mt-7 grid gap-5 text-white sm:grid-cols-2 md:mt-10 md:gap-[1.875rem]'>
@@ -43,7 +43,7 @@ export default function Section3() {
               </div>
             </div>
             <p className='mt-5 md:mt-[1.875rem]'>
-                It is a long established fact that a reader will be distracted by the readablejk content of a page when looking at its layout.
+              Whether it is cloud computing, cybersecurity, software development, or IT consulting, we’re dedicated to empowering your business to thrive in the digital era. Let us be your partner in building a smarter, more connected tomorrow.
             </p>
           </div>
           <div className='mx-auto text-center'>

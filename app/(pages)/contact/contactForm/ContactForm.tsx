@@ -29,16 +29,16 @@ const ContactForm = () => {
       <div className='col-span-4 font-secondary'>
         <div className='font-bold mb-[10px] text-white text-[3rem] font-roboto'>Get in touch</div>
         <div className='text-[#BEBEBE] leading-[2rem]'>
-            It is a long established fact that a reader will be distrol acted bioiiy desig the rea dablea contentIt is a long established fact that a reader will be
+          Ready to elevate your business with cutting-edge IT solutions? Contact our expert team to discuss your needs, explore customized strategies, and discover how we can drive your digital transformation. We are here to help you every step of the way!
         </div>
         <div className='mt-8'>
           <div className='flex gap-8'>
-            <div className='bg-[#B91202] w-[60px] h-[50px] rounded-[50%] flex justify-center items-center'>
+            <div className='bg-[#B91202] w-[88px] h-[50px] rounded-[50%] flex justify-center items-center'>
                 <span><i className="ri-map-pin-fill text-white text-[1.2rem]"></i></span>
             </div>
             <div>
               <div className='text-white font-[600] mb-2'>Address</div>
-              <div className='text-[#BEBEBE] leading-[2rem]'>Dhaka 102, utl 1216, road 45 house shantighar rahuta, 1213</div>
+              <div className='text-[#BEBEBE] leading-[2rem]'>10th Floor, 1004, Westgate, Sarkhej - Gandhinagar Hwy, nr. YMCA Club, Ahemdabad, Gujarat 380051</div>
             </div>
           </div>
           <div className='flex gap-8 mt-4'>
@@ -47,7 +47,7 @@ const ContactForm = () => {
             </div>
             <div>
               <div className='text-white font-[600] mb-2'>Email Address</div>
-              <div className='text-[#BEBEBE] leading-[2rem]'>ijmnhhasan000@yourmail.com</div>
+              <div className='text-[#BEBEBE] leading-[2rem]'>harsh@industechlab.com</div>
             </div>
           </div>
           <div className='flex gap-8 mt-4'>
@@ -56,7 +56,7 @@ const ContactForm = () => {
             </div>
             <div>
               <div className='text-white font-[600] mb-2'>Phone number</div>
-              <div className='text-[#BEBEBE] leading-[2rem]'>0000-0000-00-000</div>
+              <div className='text-[#BEBEBE] leading-[2rem]'>+91 7984457122</div>
             </div>
           </div>
         </div>

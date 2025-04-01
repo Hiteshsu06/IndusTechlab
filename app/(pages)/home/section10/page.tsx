@@ -22,10 +22,7 @@ export default function Section10() {
               Sculpting Digital Landscapes
             </h2>
             <p className="mt-5 whitespace-pre-line">
-              Nulla vitae ex nunc. Morbi quis purus convallis, fermentum metus
-              volutpat, sodales purus. Nunc quis an mauris et eros vulputate
-              mattis Nulla vitae ex nunc. Morbi quis purus convallis, fermentum
-              metus the volutpatquis purus convallis
+              We are a leading IT service-based company dedicated to delivering innovative, reliable, and scalable technology solutions. Our expertise spans across IT consulting, software development, cloud services, cybersecurity, and managed IT support. We empower businesses of all sizes to optimize operations, enhance productivity, and achieve digital transformation. With a team of skilled professionals and a customer-centric approach, we create tailored solutions that drive growth, efficiency, and success in today’s fast-evolving digital landscape
             </p>
           </div>
           <ul className="mt-10 grid max-w-[560px] gap-1 gap-x-20 sm:grid-cols-2 md:gap-2">
@@ -44,7 +41,7 @@ export default function Section10() {
                 </svg>
               </span>
               <span className="block font-secondary text-md font-bold leading-[1.5] text-white">
-                Mistakes To Avoid
+                Dedicated Java Team
               </span>
             </li>
             <li className="flex items-center gap-3 lg:gap-4">
@@ -62,7 +59,7 @@ export default function Section10() {
                 </svg>
               </span>
               <span className="block font-secondary text-md font-bold leading-[1.5] text-white">
-                Mistakes To Avoid
+                Dedicated Frontend Team
               </span>
             </li>
             <li className="flex items-center gap-3 lg:gap-4">
@@ -80,7 +77,7 @@ export default function Section10() {
                 </svg>
               </span>
               <span className="block font-secondary text-md font-bold leading-[1.5] text-white">
-                Mistakes To Avoid
+                Dedicated AI Team 
               </span>
             </li>
             <li className="flex items-center gap-3 lg:gap-4">
@@ -98,7 +95,7 @@ export default function Section10() {
                 </svg>
               </span>
               <span className="block font-secondary text-md font-bold leading-[1.5] text-white">
-                Mistakes To Avoid
+                IT Consultancy
               </span>
             </li>
             <li className="flex items-center gap-3 lg:gap-4">
@@ -116,7 +113,7 @@ export default function Section10() {
                 </svg>
               </span>
               <span className="block font-secondary text-md font-bold leading-[1.5] text-white">
-                Mistakes To Avoid
+                Dedicated Ruby Team
               </span>
             </li>
             <li className="flex items-center gap-3 lg:gap-4">
@@ -134,7 +131,7 @@ export default function Section10() {
                 </svg>
               </span>
               <span className="block font-secondary text-md font-bold leading-[1.5] text-white">
-                Mistakes To Avoid
+                Dedicated Python Team
               </span>
             </li>
           </ul>

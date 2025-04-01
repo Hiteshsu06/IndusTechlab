@@ -75,7 +75,7 @@ export default function Section9() {
                     </div>
                     <h3 className="text-md font-bold leading-[1.25] md:text-lg">
                       <a target="_self" aria-label="We implement state-of-the-art encryption" className="text-white transition-colors duration-300 hover:text-primary" href="/blog/single">
-                        We implement state-of-the-art encryption
+                        Customized Problem-Solving
                       </a>
                     </h3>
                     <div>
@@ -114,8 +114,8 @@ export default function Section9() {
                 <div className="relative z-10 flex h-full flex-1 flex-col">
                   <div>
                     <div className="inline-grid min-h-[77px] min-w-[75px] items-center justify-center rounded-5 bg-accent-700 px-4 py-3 text-center font-secondary text-md font-bold text-white transition-colors group-hover/blog:bg-primary md:text-lg">
-                      <span className="leading-none capitalize">30</span>
-                      <span className="leading-none capitalize">May</span>
+                      <span className="leading-none capitalize">01</span>
+                      <span className="leading-none capitalize">Nov</span>
                     </div>
                   </div>
                   <div className="mt-auto max-w-[270px] space-y-2 text-white md:space-y-5">
@@ -139,7 +139,7 @@ export default function Section9() {
                     </div>
                     <h3 className="text-md font-bold leading-[1.25] md:text-lg">
                       <a target="_self" aria-label="We implement state-of-the-art encryption" className="text-white transition-colors duration-300 hover:text-primary" href="/blog/single">
-                        We implement state-of-the-art encryption
+                        Agile Approach
                       </a>
                     </h3>
                     <div>
@@ -178,8 +178,8 @@ export default function Section9() {
                 <div className="relative z-10 flex h-full flex-1 flex-col">
                   <div>
                     <div className="inline-grid min-h-[77px] min-w-[75px] items-center justify-center rounded-5 bg-accent-700 px-4 py-3 text-center font-secondary text-md font-bold text-white transition-colors group-hover/blog:bg-primary md:text-lg">
-                      <span className="leading-none capitalize">30</span>
-                      <span className="leading-none capitalize">May</span>
+                      <span className="leading-none capitalize">21</span>
+                      <span className="leading-none capitalize">Jan</span>
                     </div>
                   </div>
                   <div className="mt-auto max-w-[270px] space-y-2 text-white md:space-y-5">
@@ -203,7 +203,7 @@ export default function Section9() {
                     </div>
                     <h3 className="text-md font-bold leading-[1.25] md:text-lg">
                       <a target="_self" aria-label="We implement state-of-the-art encryption" className="text-white transition-colors duration-300 hover:text-primary" href="/blog/single">
-                        We implement state-of-the-art encryption
+                        Seamless Integration
                       </a>
                     </h3>
                     <div>

@@ -71,27 +71,27 @@ const FooterLinks = () => {
                     <ul className={styles?.ul}>
                         <li>
                             <Link className={`link ${pathname === '/' ? 'active' : ''} hover:text-white ${styles?.customTransition}`} href="/">
-                                Cloud services
+                                Software Development
                             </Link>
                         </li>
                         <li>
                             <Link className={`link ${pathname === '/about' ? 'active' : ''} hover:text-white ${styles?.customTransition}`} href="/about">
-                                Backup solutions
+                                Dedicated Java Expertise
                             </Link>
                         </li>
                         <li>
                             <Link className={`link ${pathname === '/service' ? 'active' : ''} hover:text-white ${styles?.customTransition}`} href="/service">
-                                Network security
+                                IT Consulting
                             </Link>
                         </li>
                         <li>
                             <Link className={`link ${pathname === '/portfolio' ? 'active' : ''} hover:text-white ${styles?.customTransition}`} href="/portfolio">
-                                Monitoring
+                                UI/UX Design
                             </Link>
                         </li>
                         <li>
                             <Link className={`link ${pathname === '/blog' ? 'active' : ''} hover:text-white ${styles?.customTransition}`} href="/blog">
-                                IT Consulting
+                                Dedicated Frontend Team
                             </Link>
                         </li>
                     </ul>
@@ -131,15 +131,15 @@ const FooterLinks = () => {
                 <div className='flex flex-col gap-4'>
                     <div>
                         <span><i className="ri-phone-fill red-theme-color text-[1.3rem]"></i></span>
-                        <span className={`ms-3 hover:text-white hover:cursor-pointer ${styles?.customTransition}`}>+880 123 45 67 89</span>
+                        <span className={`ms-3 hover:text-white hover:cursor-pointer ${styles?.customTransition}`}>+91 7984457122</span>
                     </div>
                     <div>
                         <span><i className="ri-mail-fill red-theme-color text-[1.3rem]"></i></span>
-                        <span className={`ms-3 hover:text-white hover:cursor-pointer ${styles?.customTransition}`}>yourmail@gmail.com</span>
+                        <span className={`ms-3 hover:text-white hover:cursor-pointer ${styles?.customTransition}`}>harsh@industechlab.com</span>
                     </div>
                     <div>
                         <span><i className="ri-map-pin-2-fill red-theme-color text-[1.3rem]"></i></span>
-                        <span className={`ms-3 hover:text-white hover:cursor-pointer ${styles?.customTransition}`}>1212, Lav Vegas, The Veg Street, USA</span>
+                        <span className={`ms-3 hover:text-white hover:cursor-pointer ${styles?.customTransition}`}>10th Floor, 1004, Westgate, Sarkhej - Gandhinagar Hwy, nr. YMCA Club, Ahemdabad, Gujarat 380051</span>
                     </div>
                 </div>
             </div>

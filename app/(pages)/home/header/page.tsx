@@ -7,9 +7,9 @@ export default function Header() {
       <div className="container_container__az_fT">
         <div className="flex items-center justify-between gap-x-10">
           <div className="flex-none">
-            <a target="_self" href="/">
+            <Link target="_self" href="/">
                 <Image src="/logo.webp" width={150} height={60} alt="logo"/>
-            </a>
+            </Link>
           </div>
           <nav aria-label="primary navigation">
             <ul className="flex items-center gap-x-6">
@@ -37,51 +37,6 @@ export default function Header() {
                 <Link className="group-hover/menu-item:text-primary text-base leading-[1.3] capitalize py-4 min-h-[3.5rem] font-medium text-white hover:text-primary transition-colors duration-200 inline-flex items-center justify-center gap-1.5 focus:text-primary menu-link cursor-pointer" href="/blog">
                     <span className='text-[1rem]'>Blogs</span>
                 </Link>
-              </li>
-              <li className="group/menu-item relative ">
-                <span className="group-hover/menu-item:text-primary text-base leading-[1.3] capitalize py-4 min-h-[3.5rem] font-medium text-white hover:text-primary transition-colors duration-200 inline-flex items-center justify-center gap-1.5 focus:text-primary menu-link cursor-pointer">
-                  <span>Pages</span>
-                  <span className="text-[10px]">
-                    <svg
-                      stroke="currentColor"
-                      fill="currentColor"
-                      strokeWidth="0"
-                      viewBox="0 0 512 512"
-                      height="1em"
-                      width="1em"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"></path>
-                    </svg>
-                  </span>
-                </span>
-                <nav
-                  aria-label="sumenu-items"
-                  className="absolute left-0 top-full z-40 w-[230px] overflow-hidden bg-accent-700 shadow-lg origin-[0_0_0] scale-y-0 transition-transform duration-350 group-hover/menu-item:scale-y-100"
-                >
-                  <ul className="grid divide-y divide-white/5">
-                    <li className="leading-none">
-                      <Link className="flex min-h-[50px] items-center px-4 py-2 pr-6 text-[15px] font-normal capitalize transition-colors duration-200 hover:bg-primary  text-white" href="/blog-single">
-                        <span className='text-[1rem]'>Blog single</span>
-                      </Link>
-                    </li>
-                    <li className="leading-none">
-                      <Link className="flex min-h-[50px] items-center px-4 py-2 pr-6 text-[15px] font-normal capitalize transition-colors duration-200 hover:bg-primary  text-white" href="/team">
-                          <span className='text-[1rem]'>FAQ</span>
-                      </Link>
-                    </li>
-                    <li className="leading-none">
-                      <Link className="flex min-h-[50px] items-center px-4 py-2 pr-6 text-[15px] font-normal capitalize transition-colors duration-200 hover:bg-primary  text-white" href="/pricing">
-                          <span className='text-[1rem]'>Pricing</span>
-                      </Link>
-                    </li>
-                    <li className="leading-none">
-                      <Link className="flex min-h-[50px] items-center px-4 py-2 pr-6 text-[15px] font-normal capitalize transition-colors duration-200 hover:bg-primary  text-white" href="/faq">
-                          <span className='text-[1rem]'>FAQ</span>
-                      </Link>
-                    </li>
-                  </ul>
-                </nav>
               </li>
               <li className="group/menu-item relative ">
                 <Link className="group-hover/menu-item:text-primary text-base leading-[1.3] capitalize py-4 min-h-[3.5rem] font-medium text-white hover:text-primary transition-colors duration-200 inline-flex items-center justify-center gap-1.5 focus:text-primary menu-link cursor-pointer" href="/contact">
@@ -198,7 +153,7 @@ export default function Header() {
                 href="tel:(307)555-0133"
                 className="block font-secondary text-lg font-bold leading-[1.3]"
               >
-                (307) 555-0133
+                +91 7984457122
               </a>
             </div>
           </div>

@@ -14,15 +14,15 @@ const Header = () => {
                     <div className='flex gap-8 pl-8'>
                         <div>
                             <span><i className="ri-phone-fill text-primary text-[1rem]"></i></span>
-                            <span className={`ms-2 hover:text-white hover:cursor-pointer relative text-[1rem] ${styles.socialLink}`}>(629) 555-0129</span>
+                            <span className={`ms-2 hover:text-white hover:cursor-pointer relative text-[1rem] ${styles.socialLink}`}>+91 7984457122</span>
                         </div>
                         <div>
                             <span><i className="ri-mail-fill text-primary text-[1rem]"></i></span>
-                            <span className={`ms-2 hover:text-white hover:cursor-pointer relative text-[1rem] ${styles.socialLink}`}>info@example.com</span>
+                            <span className={`ms-2 hover:text-white hover:cursor-pointer relative text-[1rem] ${styles.socialLink}`}>harsh@industechlab.com</span>
                         </div>
                         <div>
                             <span><i className="ri-send-plane-fill text-primary text-[1rem]"></i></span>
-                            <span className={`ms-2 hover:cursor-pointer hover:text-white text-[1rem] relative ${styles.socialLink}`}>6391 Elgin St. Celina, 10299</span>
+                            <span className={`ms-2 hover:cursor-pointer hover:text-white text-[1rem] relative ${styles.socialLink}`}>10th Floor, 1004, Westgate Ahemdabad, Gujarat 380051</span>
                         </div>
                     </div>
                     <div>
@@ -35,65 +35,39 @@ const Header = () => {
                     <div className="flex gap-10">
                         <div className={`relative group ${styles.z100} hover:text-[#B91202]`}>
                             <Link className={`link ${styles?.customTransition}`} href="/">
-                                <span className='text-[1rem]'>Home</span> <i className="ri-arrow-down-s-fill"></i>
+                                <span className='text-[1rem]'>Home</span>
                             </Link>
-                            <div className={`absolute left-0 hidden bg-[#212124] text-white group-hover:block w-40  ${styles.labelTransition}`}>
-                                <ul className='pt-[16px]'>
-                                    <li><Link href="/" className="block px-4 py-3 hover:bg-[#B91202]"><span className='text-[1rem]'>Home 1</span></Link></li>
-                                    <li><Link href="/" className="block px-4 py-3 hover:bg-[#B91202]"><span className='text-[1rem]'>Home 2</span></Link></li>
-                                </ul>
-                            </div>
                         </div>
 
-                        <Link className={`link ${styles?.customTransition} hover:text-[#B91202] relative`} href="/">
-                            <span className='text-[1rem]'>About</span>
-                        </Link>
+                        <div className={`relative group ${styles.z100} hover:text-[#B91202]`}>
+                            <Link className={`link ${styles?.customTransition} hover:text-[#B91202] relative`} href="/about">
+                                <span className='text-[1rem]'>About</span>
+                            </Link>
+                        </div>
 
                         <div className={`relative group ${styles.z100} hover:text-[#B91202]`}>
-                            <Link className={`link ${styles?.customTransition}`} href="/">
+                            <Link className={`link ${styles?.customTransition}`} href="/service">
                                 <span className='text-[1rem]'>Services</span>
                             </Link>
                         </div>
 
                         <div className={`relative group ${styles.z100} hover:text-[#B91202]`}>
-                            <Link className={`link ${styles?.customTransition}`} href="/">
-                                <span className='text-[1rem]'>Project</span> <i className="ri-arrow-down-s-fill"></i>
+                            <Link className={`link ${styles?.customTransition}`} href="/project">
+                                <span className='text-[1rem]'>Project</span> 
                             </Link>
-                            <div className={`absolute left-0 hidden bg-[#212124] text-white group-hover:block w-40 z-1000 ${styles.labelTransition}`}>
-                                <ul className="pt-[16px]">
-                                    <li><Link href="/" className="block px-4 py-3 hover:bg-[#B91202]"><span className='text-[1rem]'>Project List</span></Link></li>
-                                    <li><Link href="/" className="block px-4 py-3 hover:bg-[#B91202]"><span className='text-[1rem]'>Project One</span></Link></li>
-                                </ul>
-                            </div>
                         </div>
                        
                         <div className={`relative group ${styles.z100} hover:text-[#B91202]`}>
-                            <Link className={`link ${styles?.customTransition}`} href="/">
-                                <span className='text-[1rem]'>Blog</span> <i className="ri-arrow-down-s-fill"></i>
+                            <Link className={`link ${styles?.customTransition}`} href="/blog">
+                                <span className='text-[1rem]'>Blog</span> 
                             </Link>
-                            <div className={`absolute left-0 hidden bg-[#212124] text-white group-hover:block w-40 z-1000 ${styles.labelTransition}`}>
-                                <ul className="pt-[16px]">
-                                    <li><Link href="/" className="block px-4 py-3 hover:bg-[#B91202]"><span className='text-[1rem]'>Blog List</span></Link></li>
-                                    <li><Link href="/" className="block px-4 py-3 hover:bg-[#B91202]"><span className='text-[1rem]'>Blog One</span></Link></li>
-                                </ul>
-                            </div>
-                        </div>
+                        </div> 
+
                         <div className={`relative group ${styles.z100} hover:text-[#B91202]`}>
-                            <Link className={`link ${styles?.customTransition}`} href="/">
-                                <span className='text-[1rem]'>Pages</span> <i className="ri-arrow-down-s-fill"></i>
+                            <Link className={`link hover:text-[#B91202] ${styles?.customTransition}`} href="/contact">
+                                <span className='text-[1rem]'>Contact</span>
                             </Link>
-                            <div className={`absolute left-0 hidden bg-[#212124] text-white group-hover:block w-40 z-1000 ${styles.labelTransition}`}>
-                                <ul className="pt-[16px]">
-                                    <li><Link href="/" className="block px-4 py-3 hover:bg-[#B91202]"><span className='text-[1rem]'>Testimonial</span></Link></li>
-                                    <li><Link href="/" className="block px-4 py-3 hover:bg-[#B91202]"><span className='text-[1rem]'>Team</span></Link></li>
-                                    <li><Link href="/" className="block px-4 py-3 hover:bg-[#B91202]"><span className='text-[1rem]'>Pricing</span></Link></li>
-                                    <li><Link href="/" className="block px-4 py-3 hover:bg-[#B91202]"><span className='text-[1rem]'>FAQ</span></Link></li>
-                                </ul>
-                            </div>
-                        </div>      
-                        <Link className={`link hover:text-[#B91202] ${styles?.customTransition}`} href="/">
-                            <span className='text-[1rem]'>Contact</span>
-                        </Link>
+                        </div> 
                        </div>
                     </div>
 

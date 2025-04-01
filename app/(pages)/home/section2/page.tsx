@@ -34,12 +34,11 @@ export default function Section2() {
                 </svg>
               </span>
               <h2 className="text-md font-bold leading-[1.25] md:text-lg">
-                Net Connect Plus
+                Cost-Effective Solutions
               </h2>
             </div>
             <p className="text-accent-800 text-body">
-              It is a long established fact that a reader will be distracted by
-              the readable content of a page layout long established
+                Optimized IT strategies to reduce operational costs while enhancing productivity.
             </p>
             <a
               href=""
@@ -78,12 +77,12 @@ export default function Section2() {
                 </svg>
               </span>
               <h2 className="text-md font-bold leading-[1.25] md:text-lg">
-                Data Guard Sentinel
+                Continuous Innovation
               </h2>
             </div>
             <p className="text-accent-800 text-body">
-              It is a long established fact that a reader will be distracted by
-              the readable content of a page layout long established
+                Keeping up with the latest technology advancements to offer cutting-edge solutions.
+                Let me know if you would like to expand on any of these points!
             </p>
             <a
               href=""
@@ -122,12 +121,11 @@ export default function Section2() {
                 </svg>
               </span>
               <h2 className="text-md font-bold leading-[1.25] md:text-lg">
-                App Swift DevOps
+                Expert Team
               </h2>
             </div>
             <p className="text-accent-800 text-body">
-              It is a long established fact that a reader will be distracted by
-              the readable content of a page layout long established
+                A team of skilled professionals specializing in network administration, software engineering, data analysis, and IT consulting.
             </p>
             <a
               href=""

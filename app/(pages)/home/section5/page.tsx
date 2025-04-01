@@ -68,12 +68,12 @@ export default function Section5() {
                 <div className="mt-auto divide-y md:opacity-0 md:transition-[transform,opacity] md:duration-500  md:group-hover/portfolio:opacity-100">
                   <h3 className="overflow-hidden text-md font-bold leading-[1.25] text-white md:text-lg">
                     <span className="block [transition-delay:500ms] [transition:all_.9s_ease] md:[transform:translateY(-100%)] md:group-hover/portfolio:[transform:translateY(0)]">
-                      Cloud Migrate Pro
+                      Dedicated Java Team
                     </span>
                   </h3>
                   <p className="mt-[13px] overflow-hidden pt-[11px] text-body">
                     <span className="block [transition-delay:500ms] [transition:all_.9s_ease] md:[transform:translateY(100%)] md:group-hover/portfolio:[transform:translateY(0)]">
-                      Lorem Ipsum is simply dummy
+                      A dedicated Java team of experts delivering scalable, secure, and high-performance solutions tailored to your business needs.
                     </span>
                   </p>
                 </div>
@@ -115,12 +115,12 @@ export default function Section5() {
                 <div className="mt-auto divide-y md:opacity-0 md:transition-[transform,opacity] md:duration-500  md:group-hover/portfolio:opacity-100">
                   <h3 className="overflow-hidden text-md font-bold leading-[1.25] text-white md:text-lg">
                     <span className="block [transition-delay:500ms] [transition:all_.9s_ease] md:[transform:translateY(-100%)] md:group-hover/portfolio:[transform:translateY(0)]">
-                      Cloud Migrate Pro
+                      Dedicated Frontend Team
                     </span>
                   </h3>
                   <p className="mt-[13px] overflow-hidden pt-[11px] text-body">
                     <span className="block [transition-delay:500ms] [transition:all_.9s_ease] md:[transform:translateY(100%)] md:group-hover/portfolio:[transform:translateY(0)]">
-                      Lorem Ipsum is simply dummy
+                      A dedicated frontend team crafting responsive, user-friendly interfaces for seamless digital experiences.
                     </span>
                   </p>
                 </div>
@@ -162,12 +162,12 @@ export default function Section5() {
                 <div className="mt-auto divide-y md:opacity-0 md:transition-[transform,opacity] md:duration-500  md:group-hover/portfolio:opacity-100">
                   <h3 className="overflow-hidden text-md font-bold leading-[1.25] text-white md:text-lg">
                     <span className="block [transition-delay:500ms] [transition:all_.9s_ease] md:[transform:translateY(-100%)] md:group-hover/portfolio:[transform:translateY(0)]">
-                      Cloud Migrate Pro
+                      Mobile App Based Team
                     </span>
                   </h3>
                   <p className="mt-[13px] overflow-hidden pt-[11px] text-body">
                     <span className="block [transition-delay:500ms] [transition:all_.9s_ease] md:[transform:translateY(100%)] md:group-hover/portfolio:[transform:translateY(0)]">
-                      Lorem Ipsum is simply dummy
+                      A mobile team specializing in developing intuitive, high-performance apps for iOS and Android platforms.
                     </span>
                   </p>
                 </div>
@@ -209,12 +209,12 @@ export default function Section5() {
                 <div className="mt-auto divide-y md:opacity-0 md:transition-[transform,opacity] md:duration-500  md:group-hover/portfolio:opacity-100">
                   <h3 className="overflow-hidden text-md font-bold leading-[1.25] text-white md:text-lg">
                     <span className="block [transition-delay:500ms] [transition:all_.9s_ease] md:[transform:translateY(-100%)] md:group-hover/portfolio:[transform:translateY(0)]">
-                      Cloud Migrate Pro
+                      AI Teams: Driving Intelligent Innovation
                     </span>
                   </h3>
                   <p className="mt-[13px] overflow-hidden pt-[11px] text-body">
                     <span className="block [transition-delay:500ms] [transition:all_.9s_ease] md:[transform:translateY(100%)] md:group-hover/portfolio:[transform:translateY(0)]">
-                      Lorem Ipsum is simply dummy
+                      Our AI teams are experts in developing advanced artificial intelligence solutions, from machine learning algorithm
                     </span>
                   </p>
                 </div>

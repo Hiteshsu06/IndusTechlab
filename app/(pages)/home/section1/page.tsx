@@ -5,12 +5,13 @@ import { Autoplay, Navigation, EffectFade } from 'swiper/modules';
 import HomeWave from "../../../../public/assets/images/home-wave.webp";
 import 'swiper/css';
 import 'swiper/css/effect-fade';
+import Link from 'next/link';
 
 export default function Section1() {
   return (
     <section>
       <Swiper 
-        className="swiper-wrapper" 
+        className="swiper-wrapper w-full" 
         effect={'fade'}
         speed={4000}
         autoplay={{
@@ -24,10 +25,9 @@ export default function Section1() {
         >
         <SwiperSlide>
           <div
-            className="swiper-slide swiper-slide-duplicate swiper-slide-prev"
+            className="swiper-slide swiper-slide-duplicate swiper-slide-prev w-full"
             data-swiper-slide-index="2"
             style={{
-              width: "1349px",
               opacity: "1",
               transform: "translate3d(0px, 0px, 0px)",
               transitionDuration: " 0ms",
@@ -111,7 +111,7 @@ export default function Section1() {
                   src={HomeWave}
                   alt="hero bottom shape"
                   loading="lazy"
-                  width="1920"
+                  width={100}
                   height="319"
                   decoding="async"
                   data-nimg="1"
@@ -130,7 +130,7 @@ export default function Section1() {
                     <h1 className="font-secondary font-semibold uppercase leading-[1.1] text-[5.875rem]">
                       Empowering Your Digital Future
                     </h1>
-                    <a
+                    <Link
                       target="_self"
                       aria-label="Discover More"
                       className="relative z-[2] text-white overflow-hidden text-base leading-[1.1] font-bold font-secondary tracking-wide uppercase [transition:all_0.3s_linear] inline-flex items-center justify-center gap-3 md:min-h-[3.75rem] min-h-[3.5rem] px-6 md:px-7 py-2 md:py-3 transition-colors ease-in-out ring-offset-primary-dark focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 bg-primary after:absolute after:h-full after:w-0 after:bottom-0 after:right-0 after:bg-black/[.15] after:-z-1 after:[transition:all_.3s_ease-in-out] hover:text-white hover:after:w-full hover:after:left-0 rounded-full"
@@ -146,7 +146,7 @@ export default function Section1() {
                       >
                         <path d="M27.7911 5.02543C27.9863 4.83016 27.9863 4.51358 27.7911 4.31832L24.6091 1.13634C24.4138 0.941077 24.0972 0.941077 23.902 1.13634C23.7067 1.3316 23.7067 1.64818 23.902 1.84345L26.7304 4.67187L23.902 7.5003C23.7067 7.69556 23.7067 8.01214 23.902 8.20741C24.0972 8.40267 24.4138 8.40267 24.6091 8.20741L27.7911 5.02543ZM0.4375 5.17188L27.4375 5.17187L27.4375 4.17187L0.4375 4.17188L0.4375 5.17188Z"></path>
                       </svg>
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -155,10 +155,9 @@ export default function Section1() {
         </SwiperSlide>
         <SwiperSlide>
         <div
-            className="swiper-slide swiper-slide-duplicate swiper-slide-prev"
+            className="swiper-slide swiper-slide-duplicate swiper-slide-prev w-full"
             data-swiper-slide-index="2"
             style={{
-              width: "1349px",
               opacity: "1",
               transform: "translate3d(0px, 0px, 0px)",
               transitionDuration: " 0ms",
@@ -242,7 +241,7 @@ export default function Section1() {
                   src={HomeWave}
                   alt="hero bottom shape"
                   loading="lazy"
-                  width="1920"
+                  width={100}
                   height="319"
                   decoding="async"
                   data-nimg="1"
@@ -261,7 +260,7 @@ export default function Section1() {
                     <h1 className="font-secondary font-semibold uppercase leading-[1.1] text-[5.875rem]">
                       Empowering Your Digital Future
                     </h1>
-                    <a
+                    <Link
                       target="_self"
                       aria-label="Discover More"
                       className="relative z-[2] text-white overflow-hidden text-base leading-[1.1] font-bold font-secondary tracking-wide uppercase [transition:all_0.3s_linear] inline-flex items-center justify-center gap-3 md:min-h-[3.75rem] min-h-[3.5rem] px-6 md:px-7 py-2 md:py-3 transition-colors ease-in-out ring-offset-primary-dark focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 bg-primary after:absolute after:h-full after:w-0 after:bottom-0 after:right-0 after:bg-black/[.15] after:-z-1 after:[transition:all_.3s_ease-in-out] hover:text-white hover:after:w-full hover:after:left-0 rounded-full"
@@ -277,7 +276,7 @@ export default function Section1() {
                       >
                         <path d="M27.7911 5.02543C27.9863 4.83016 27.9863 4.51358 27.7911 4.31832L24.6091 1.13634C24.4138 0.941077 24.0972 0.941077 23.902 1.13634C23.7067 1.3316 23.7067 1.64818 23.902 1.84345L26.7304 4.67187L23.902 7.5003C23.7067 7.69556 23.7067 8.01214 23.902 8.20741C24.0972 8.40267 24.4138 8.40267 24.6091 8.20741L27.7911 5.02543ZM0.4375 5.17188L27.4375 5.17187L27.4375 4.17187L0.4375 4.17188L0.4375 5.17188Z"></path>
                       </svg>
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -286,10 +285,9 @@ export default function Section1() {
         </SwiperSlide>
         <SwiperSlide>
         <div
-            className="swiper-slide swiper-slide-duplicate swiper-slide-prev"
+            className="swiper-slide swiper-slide-duplicate swiper-slide-prev w-full"
             data-swiper-slide-index="2"
             style={{
-              width: "1349px",
               opacity: "1",
               transform: "translate3d(0px, 0px, 0px)",
               transitionDuration: " 0ms",
@@ -373,7 +371,7 @@ export default function Section1() {
                   src={HomeWave}
                   alt="hero bottom shape"
                   loading="lazy"
-                  width="1920"
+                  width={100}
                   height="319"
                   decoding="async"
                   data-nimg="1"
@@ -392,7 +390,7 @@ export default function Section1() {
                     <h1 className="font-secondary font-semibold uppercase leading-[1.1] text-[5.875rem]">
                       Empowering Your Digital Future
                     </h1>
-                    <a
+                    <Link
                       target="_self"
                       aria-label="Discover More"
                       className="relative z-[2] text-white overflow-hidden text-base leading-[1.1] font-bold font-secondary tracking-wide uppercase [transition:all_0.3s_linear] inline-flex items-center justify-center gap-3 md:min-h-[3.75rem] min-h-[3.5rem] px-6 md:px-7 py-2 md:py-3 transition-colors ease-in-out ring-offset-primary-dark focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 bg-primary after:absolute after:h-full after:w-0 after:bottom-0 after:right-0 after:bg-black/[.15] after:-z-1 after:[transition:all_.3s_ease-in-out] hover:text-white hover:after:w-full hover:after:left-0 rounded-full"
@@ -408,7 +406,7 @@ export default function Section1() {
                       >
                         <path d="M27.7911 5.02543C27.9863 4.83016 27.9863 4.51358 27.7911 4.31832L24.6091 1.13634C24.4138 0.941077 24.0972 0.941077 23.902 1.13634C23.7067 1.3316 23.7067 1.64818 23.902 1.84345L26.7304 4.67187L23.902 7.5003C23.7067 7.69556 23.7067 8.01214 23.902 8.20741C24.0972 8.40267 24.4138 8.40267 24.6091 8.20741L27.7911 5.02543ZM0.4375 5.17188L27.4375 5.17187L27.4375 4.17187L0.4375 4.17188L0.4375 5.17188Z"></path>
                       </svg>
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -417,10 +415,9 @@ export default function Section1() {
         </SwiperSlide>
         <SwiperSlide>
         <div
-            className="swiper-slide swiper-slide-duplicate swiper-slide-prev"
+            className="swiper-slide swiper-slide-duplicate swiper-slide-prev w-full"
             data-swiper-slide-index="2"
             style={{
-              width: "1349px",
               opacity: "1",
               transform: "translate3d(0px, 0px, 0px)",
               transitionDuration: " 0ms",
@@ -504,7 +501,7 @@ export default function Section1() {
                   src={HomeWave}
                   alt="hero bottom shape"
                   loading="lazy"
-                  width="1920"
+                  width={100}
                   height="319"
                   decoding="async"
                   data-nimg="1"
@@ -523,7 +520,7 @@ export default function Section1() {
                     <h1 className="font-secondary font-semibold uppercase leading-[1.1] text-[5.875rem]">
                       Empowering Your Digital Future
                     </h1>
-                    <a
+                    <Link
                       target="_self"
                       aria-label="Discover More"
                       className="relative z-[2] text-white overflow-hidden text-base leading-[1.1] font-bold font-secondary tracking-wide uppercase [transition:all_0.3s_linear] inline-flex items-center justify-center gap-3 md:min-h-[3.75rem] min-h-[3.5rem] px-6 md:px-7 py-2 md:py-3 transition-colors ease-in-out ring-offset-primary-dark focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 bg-primary after:absolute after:h-full after:w-0 after:bottom-0 after:right-0 after:bg-black/[.15] after:-z-1 after:[transition:all_.3s_ease-in-out] hover:text-white hover:after:w-full hover:after:left-0 rounded-full"
@@ -539,7 +536,7 @@ export default function Section1() {
                       >
                         <path d="M27.7911 5.02543C27.9863 4.83016 27.9863 4.51358 27.7911 4.31832L24.6091 1.13634C24.4138 0.941077 24.0972 0.941077 23.902 1.13634C23.7067 1.3316 23.7067 1.64818 23.902 1.84345L26.7304 4.67187L23.902 7.5003C23.7067 7.69556 23.7067 8.01214 23.902 8.20741C24.0972 8.40267 24.4138 8.40267 24.6091 8.20741L27.7911 5.02543ZM0.4375 5.17188L27.4375 5.17187L27.4375 4.17187L0.4375 4.17188L0.4375 5.17188Z"></path>
                       </svg>
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -548,10 +545,9 @@ export default function Section1() {
         </SwiperSlide>
         <SwiperSlide>
           <div
-            className="swiper-slide swiper-slide-duplicate swiper-slide-prev"
+            className="swiper-slide swiper-slide-duplicate swiper-slide-prev w-full"
             data-swiper-slide-index="2"
             style={{
-              width: "1349px",
               opacity: "1",
               transform: "translate3d(0px, 0px, 0px)",
               transitionDuration: " 0ms",
@@ -635,7 +631,7 @@ export default function Section1() {
                   src={HomeWave}
                   alt="hero bottom shape"
                   loading="lazy"
-                  width="1920"
+                  width={100}
                   height="319"
                   decoding="async"
                   data-nimg="1"
@@ -654,7 +650,7 @@ export default function Section1() {
                     <h1 className="font-secondary font-semibold uppercase leading-[1.1] text-[5.875rem]">
                       Empowering Your Digital Future
                     </h1>
-                    <a
+                    <Link
                       target="_self"
                       aria-label="Discover More"
                       className="relative z-[2] text-white overflow-hidden text-base leading-[1.1] font-bold font-secondary tracking-wide uppercase [transition:all_0.3s_linear] inline-flex items-center justify-center gap-3 md:min-h-[3.75rem] min-h-[3.5rem] px-6 md:px-7 py-2 md:py-3 transition-colors ease-in-out ring-offset-primary-dark focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 bg-primary after:absolute after:h-full after:w-0 after:bottom-0 after:right-0 after:bg-black/[.15] after:-z-1 after:[transition:all_.3s_ease-in-out] hover:text-white hover:after:w-full hover:after:left-0 rounded-full"
@@ -670,7 +666,7 @@ export default function Section1() {
                       >
                         <path d="M27.7911 5.02543C27.9863 4.83016 27.9863 4.51358 27.7911 4.31832L24.6091 1.13634C24.4138 0.941077 24.0972 0.941077 23.902 1.13634C23.7067 1.3316 23.7067 1.64818 23.902 1.84345L26.7304 4.67187L23.902 7.5003C23.7067 7.69556 23.7067 8.01214 23.902 8.20741C24.0972 8.40267 24.4138 8.40267 24.6091 8.20741L27.7911 5.02543ZM0.4375 5.17188L27.4375 5.17187L27.4375 4.17187L0.4375 4.17188L0.4375 5.17188Z"></path>
                       </svg>
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>

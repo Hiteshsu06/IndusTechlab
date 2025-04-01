@@ -16,7 +16,7 @@ export default function Section7() {
   useEffect(() => {
           AOS.init();
         }, [])
-  const [currentSlide, setCurrentSlide] = useState(0);
+  // const [currentSlide, setCurrentSlide] = useState(0);
   const [sliderRef, instanceRef] = useKeenSlider({
     initial: 0,
     slides: {
@@ -24,9 +24,9 @@ export default function Section7() {
       spacing: 30
     },
     loop: true,
-    slideChanged(slider) {
-      setCurrentSlide(slider.track.details.rel)
-    }
+    // slideChanged(slider) {
+    //   setCurrentSlide(slider.track.details.rel)
+    // }
   })
 
   return (
